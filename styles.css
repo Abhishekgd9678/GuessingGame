@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 2%;
+    align-items: center;
+    background-color: rgb(91, 91, 91);
+
+}
+.reset{
+    height: 30px;
+    border-radius: 10%;
+    color: white;
+    background-color: black;
+}
+.toptext{
+    font-size: 20px;
+
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.finalnum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 40px;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+ 
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.right{
+   
+    line-height: 0.6;
+
+}
+.checkbtn{
+    font-size: 25px;
+}
+.guessbox{
+    font-size: 25px;
+}
